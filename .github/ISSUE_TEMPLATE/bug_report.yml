@@ -1,0 +1,42 @@
+name: Bug report / Informe de error
+description: Something in WinNest doesn't work as expected. / Algo de WinNest no funciona como debería.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! Please don't paste license keys or passwords.
+        ¡Gracias por avisar! No pegues claves de licencia ni contraseñas.
+  - type: input
+    id: version
+    attributes:
+      label: WinNest version / Versión de WinNest
+      description: Settings → About / Ajustes → Acerca de
+      placeholder: "0.2.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version / Versión de Windows
+      placeholder: Windows 11 Home 25H2
+    validations:
+      required: true
+  - type: input
+    id: guest
+    attributes:
+      label: Guest operating system / Sistema invitado
+      placeholder: Ubuntu 26.04
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened? / ¿Qué ha pasado?
+      description: Steps to reproduce, what you expected and what happened instead. / Pasos para reproducirlo, qué esperabas y qué ocurrió.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Registros
+      description: VM menu → Show log, or %LOCALAPPDATA%\WinNest\logs\app.log / Menú de la VM → Ver registro, o %LOCALAPPDATA%\WinNest\logs\app.log
+      render: text

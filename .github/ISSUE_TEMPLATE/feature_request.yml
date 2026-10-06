@@ -1,0 +1,14 @@
+name: Feature request / Petición de función
+description: An idea to make WinNest better. / Una idea para mejorar WinNest.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like WinNest to do? / ¿Qué te gustaría que hiciera WinNest?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why? What would it help with? / ¿Para qué? ¿En qué te ayudaría?

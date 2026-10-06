@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Licenses, purchases and refunds / Licencias, compras y reembolsos
+    url: mailto:pablohurtadohg@gmail.com
+    about: Write from the email you bought the license with. / Escribe desde el email de la compra.
+  - name: Security vulnerability / Vulnerabilidad de seguridad
+    url: mailto:pablohurtadohg@gmail.com
+    about: Report it privately by email, please. / Avísanos en privado por email.
